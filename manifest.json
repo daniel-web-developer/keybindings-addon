@@ -4,10 +4,12 @@
     "description": "Swap that alt for ctrl and Vim-up your keys.",
     "version": "0.1",
 
-    "permissions": ["tabs"],
+    "permissions": [
+        "tabs"
+    ],
+
     "background": {
-        "scripts": ["background.js"];
-        "persistent": false
+        "scripts": ["background.js"]
     },
 
     "commands": {
@@ -51,11 +53,11 @@
                 "default": "Ctrl+8"
             }
         },
-        "last": {
+        "9": {
             "suggested_key": {
                 "default": "Ctrl+9"
             }
-        },
+        }
     }
 }
 
