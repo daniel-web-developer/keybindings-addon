@@ -1,0 +1,61 @@
+{
+    "manifest_version": 3,
+    "name": "Keybindings for Linux users",
+    "description": "Swap that alt for ctrl and Vim-up your keys.",
+    "version": "0.1",
+
+    "permissions": ["tabs"],
+    "background": {
+        "scripts": ["background.js"];
+        "persistent": false
+    },
+
+    "commands": {
+        "1": {
+            "suggested_key": {
+                "default": "Ctrl+1"
+            }
+        },
+        "2": {
+            "suggested_key": {
+                "default": "Ctrl+2"
+            }
+        },
+        "3": {
+            "suggested_key": {
+                "default": "Ctrl+3"
+            }
+        },
+        "4": {
+            "suggested_key": {
+                "default": "Ctrl+4"
+            }
+        },
+        "5": {
+            "suggested_key": {
+                "default": "Ctrl+5"
+            }
+        },
+        "6": {
+            "suggested_key": {
+                "default": "Ctrl+6"
+            }
+        },
+        "7": {
+            "suggested_key": {
+                "default": "Ctrl+7"
+            }
+        },
+        "8": {
+            "suggested_key": {
+                "default": "Ctrl+8"
+            }
+        },
+        "last": {
+            "suggested_key": {
+                "default": "Ctrl+9"
+            }
+        },
+    }
+}
+
